@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <!-- SPDX-FileCopyrightText: 2025 Arthur A. Gleckler -->
+      <!-- SPDX-License-Identifier: MIT -->
       <title>Hygienic ERR5RS Record Syntax (reduced)</title>
       <link href="/admin.css" rel="stylesheet">
       <link href="/list.css" rel="stylesheet">
@@ -14,11 +16,11 @@
       <p class="authors">by Marc Nieper-Wißkirchen</p>
       <p class="based-on"></p>
       <p class="status">status: <em>final</em> (2018-01-16)</p>
-      <p class="keywords">keywords: <a href="https://srfi.schemers.org/?keywords=data-structure">Data Structure</a></p><span class="see-also">See also <a href="/srfi-9/">SRFI 9: Defining Record Types</a>, <a href="/srfi-99/">SRFI 99: ERR5RS Records</a>, <a href="/srfi-131/">SRFI 131: ERR5RS Record Syntax (reduced)</a>, <a href="/srfi-136/">SRFI 136: Extensible record types</a>, and <a href="/srfi-237/">SRFI 237: Reconciled Records</a>.</span>
+      <p class="keywords">keywords: <a href="https://srfi.schemers.org/?keywords=data-structure">Data Structure</a>, <a href="https://srfi.schemers.org/?keywords=record-type">Record Type</a></p><span class="see-also">See also <a href="/srfi-9/">SRFI 9: Defining Record Types</a>, <a href="/srfi-99/">SRFI 99: ERR5RS Records</a>, <a href="/srfi-131/">SRFI 131: ERR5RS Record Syntax (reduced)</a>, <a href="/srfi-136/">SRFI 136: Extensible record types</a>, and <a href="/srfi-237/">SRFI 237: R6RS Records (refined)</a>.</span>
       <ul class="info">
         <li><a href="srfi-150.html">The SRFI Document</a></li>
         <li><a href="https://srfi-email.schemers.org/srfi-150/">Discussion Archive</a></li>
-        <li><a href="https://github.com/scheme-requests-for-implementation/srfi-150">Git repo (on Github)</a></li>
+        <li><a href="https://github.com/scheme-requests-for-implementation/srfi-150">Git repo (on GitHub)</a></li>
         <li><a href="mailto:srfi-150@srfi.schemers.org">srfi-150@<span class="antispam">nospam</span>srfi.schemers.org (subscribers only)</a></li>
         <li><span class="firefox-column-workaround">
             <form method="POST" action="https://www.simplelists.com/subscribe.php">
@@ -27,17 +29,4 @@
         <li><span class="firefox-column-workaround">
             <form method="POST" action="https://www.simplelists.com/subscribe.php">
               <div class="title">Unsubscribe from srfi-150 mailing list</div><input name="email" placeholder="email address" tabindex="5" type="email"><input class="submit" name="submit" tabindex="6" type="submit" value="Unsubscribe from srfi-150"><input type="hidden" name="action" value="unsubscribe"><input name="list" type="hidden" value="srfi-150@srfi.schemers.org"></form></span></li></ul>
-      <h2>Abstract</h2>	<p>
-	  This SRFI provides a specification and portable implementation of an
-	  extension of the ERR5RS record syntax
-	  of <a href="https://srfi.schemers.org/srfi-131/srfi-131.html">SRFI
-	  131</a>, where field names inserted by macro transformers are
-	  effectively renamed as if the macro transformer inserted a binding.
-	  This makes this SRFI compatible with the semantics of the record-type
-	  definitions of
-	  the <a href="https://bitbucket.org/cowan/r7rs/src/draft-10/rnrs/r7rs.pdf">R7RS</a>
-	  as intended by
-	  its <a href="https://groups.google.com/d/msg/scheme-reports-wg2/oKuhgwaM45w/KXgPrh8oAwAJ">authors</a>.
-	  In addition, field names may also be other types of Scheme datums,
-	  like numbers and strings, or
-	  <a href="https://srfi.schemers.org/srfi-88/srfi-88.html">SRFI 88</a> keyword objects.</body></html>
+      <h2>Abstract</h2>	<p> 	  This SRFI provides a specification and portable implementation of an 	  extension of the ERR5RS record syntax 	  of <a href="https://srfi.schemers.org/srfi-131/srfi-131.html">SRFI 	  131</a>, where field names inserted by macro transformers are 	  effectively renamed as if the macro transformer inserted a binding. 	  This makes this SRFI compatible with the semantics of the record-type 	  definitions of 	  the <a href="https://bitbucket.org/cowan/r7rs/src/draft-10/rnrs/r7rs.pdf">R7RS</a> 	  as intended by 	  its <a href="https://groups.google.com/d/msg/scheme-reports-wg2/oKuhgwaM45w/KXgPrh8oAwAJ">authors</a>. 	  In addition, field names may also be other types of Scheme datums, 	  like numbers and strings, or 	  <a href="https://srfi.schemers.org/srfi-88/srfi-88.html">SRFI 88</a> keyword objects.</body></html>
